@@ -130,6 +130,7 @@ html, body {
 }
 
 .card_learn-more {
+    box-sizing: border-box;
     width: fit-content;
     padding: 18px 32px;
     border: none;
@@ -140,6 +141,12 @@ html, body {
     color: inherit;
     font-size: 15px;
     font-weight: 400;
+}
+
+.card_learn-more:hover {
+    background-color: inherit;
+    color: hsl(0, 0%, 95%);
+    outline: 2px solid hsl(0, 0%, 95%);
 }
 
 .attribution {
